@@ -110,4 +110,4 @@ def delete_cookies():
 
 if __name__ == "__main__":
     os.chdir(os.getcwd())
-    app.run(host="0.0.0.0", port=80, debug=True)
+    app.run(host="0.0.0.0", port=8005, debug=True)
